@@ -1,0 +1,9 @@
+.joke {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.joke p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}

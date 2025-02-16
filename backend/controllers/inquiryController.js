@@ -27,7 +27,14 @@ const getInquiryById = async (req, res) => {
 // Add a new inquiry
 const createInquiry = async (req, res) => {
   try {
-    const newInquiry = await inquiryModel.addInquiry(req.body);
+    const { name, email, message } = req.body;
+    const newInquiry = await inquiryModel.addInquiry({
+      customer_name: name,
+      email,
+      phone: '',
+      message,
+      inquiry_date: new Date()
+    });
     res.status(201).json(newInquiry);
   } catch (error) {
     res.status(500).json({ error: error.message });

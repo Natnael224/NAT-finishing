@@ -1,0 +1,39 @@
+.hero {
+    background-image: url('../assets/images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .hero button {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .hero p {
+      font-size: 1em;
+    }
+  }
+  
