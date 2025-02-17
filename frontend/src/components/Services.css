@@ -31,9 +31,24 @@
   color: #666;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .service-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Button styles */
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e68a00;
 }
