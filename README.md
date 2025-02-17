@@ -308,4 +308,4 @@ Ensure your database credentials are correct in the .env file.
 
 ### Inquiries
 
-from the form
+from the form on the contact page
